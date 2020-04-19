@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        var playerWin = "0"
+        var playerLoss = "0"
+        var playerTie = "0"
+
+        for (i = 0; i < 10; i++) {
+
+            var computerChoice = ["r", "p", "s"]
+            var computerChoice = computerChoice[Math.floor(Math.random() * computerChoice.length)]
+
+            var playerChoice = (prompt("ROSHAMBO!!! Pick r, p, or s!"))
+            playerChoice = playerChoice.toLowerCase()
+            if (playerChoice === "r" || playerChoice === "p" || playerChoice === "s") {
+
+                alert("The computer chose " + computerChoice)
+            }
+
+            if ((playerChoice === "r" && computerChoice === "s") || (playerChoice === "p" && computerChoice === "r") || (playerChoice === "s" && computerChoice === "p")) {
+                playerWin++
+                alert("You won! Youve won " + playerWin + " times")
+            }
+            else if (playerChoice === computerChoice) {
+                playerTie++
+                alert("You tied! You've tied " + playerTie + " times")
+            }
+            else {
+                playerLoss++
+                alert("You lost! You've lost " + playerLoss + " times")
+            }
+        }
+        alert("Your record: Wins- " + playerWin + "Losses- " + playerLoss + "Ties- " + playerTie)
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

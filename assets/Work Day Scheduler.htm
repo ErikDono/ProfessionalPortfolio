@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///Users/ErikDonovan/Desktop/CODE/homework_5/Develop/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./Work Day Scheduler_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./Work Day Scheduler_files/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="./Work Day Scheduler_files/css" rel="stylesheet">
+  <script src="./Work Day Scheduler_files/jquery.min.js"></script>
+  <link rel="stylesheet" href="./Work Day Scheduler_files/style.css">
+  <script src="./Work Day Scheduler_files/momentjs.js"></script>
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead">March 29th 2020, 9:53</p>
+    <script>
+      var now = moment().format('MMMM Do YYYY, h:mm');
+      var dateAndTime = document.getElementById('currentDay');
+      dateAndTime.innerHTML = now;
+    </script>
+
+  </header>
+  <div class="container" style="margin-left: 5px;">
+    <form>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-lg-3">9 AM</div>
+          <div class="input-group col-lg-6 wrapper" style="background-color: aqua;">
+            <input type="text" class="form-control" id="savedEvent" style="margin-top: 20px">
+            <span id=" printedEvent"></span>
+          </div>
+          <div class="col-lg-3">
+            <button id="submit" type="submit" class="btn btn-primary" style="float:left">Submit</button>
+          </div>
+        </div>
+        <section>
+          <div class="row">
+            <div class="col-lg-3">10 AM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">11 AM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <button class="col-lg-3">ill put a button here</button>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">12 PM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">1 PM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">2 PM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">3 PM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">4 PM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">5 PM</div>
+            <div class="col-lg-6" style="background-color: aqua;">This is where they will enter</div>
+            <div class="col-lg-3">ill put a button here</div>
+          </div>
+        </section>
+      </div>
+    </form>
+
+  </div>
+
+
+
+  <script type="text/javascript">
+
+    var storedEvent = []
+
+
+    $("#submit").on("click", function (event) {
+      var userEvent = $('#savedEvent').val();
+      event.preventDefault();
+
+      if (userEvent === "") {
+        return
+      }
+      storedEvent = userEvent.trim()
+      console.log(storedEvent)
+
+      storeEvent()
+
+    })
+    function storeEvent() {
+      localStorage.setItem("storedEvent", JSON.stringify(storedEvent));
+
+    }
+
+
+
+    //
+
+
+  </script>
+
+
+
+
+
+
+
+  <script src="./Work Day Scheduler_files/jquery-3.4.1.min.js"></script>
+  <script src="./Work Day Scheduler_files/moment.min.js"></script>
+
+
+
+</body></html>
