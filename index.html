@@ -20,29 +20,34 @@
 
     <!-- <h1 class="navbar-brand">Erik Donovan</h1> 
     tried to see if h1 tag would allow font color change-->
-    <button type="button" id="missStatButt" class="btn"> <a class="navbar-brand" id="missStat">
+    <button type="button" id="missBtn" class="btn"> <a class="navbar-brand" id="missStat">
             My<br>Mission<br>Statement</a></button>
+    <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+        <img src="assets/edPic.png" id="logo" />
+    </div>
 
     <ul class="navbar-nav ml-auto">
         <div class="btn-toolbar justify-content-between " role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group" role="group" aria-label="First group">
                 <!-- adding button for portfolio  -->
-                <button type="button" id='portButt' class="btn btn-secondary">Portfolio</a></button>
+                <button type="button" id='portBtn' class="btn btn-secondary">Portfolio</a></button>
                 <!-- adding button for contact me -->
-                <button type="button" id='contactMe' class="btn btn-secondary">Contact
+                <button type="button" id='contBtn' class="btn btn-secondary">Contact
                     Me</a></button>
+                <!-- adding button for about me -->
+                <button type="button" id='abtBtn' class="btn btn-secondary">About Me</a></button>
                 <!-- added linked in button. my button was sloppy so I used an a href from another template  -->
-                <button type="button" id="linkButt" class="btn btn-secondary"><a
+                <button type="button" id="linkBtn" class="btn btn-secondary"><a
                         href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn"
                         class="btn btn-sm"><img class='siteImg' src="assets/linkedin.png" /></a></button>
                 <!-- facebook button using same temp -->
-                <button type="button" id='faceButt' class="btn btn-secondary"><a
+                <button type="button" id='faceBtn' class="btn btn-secondary"><a
                         href="https://www.facebook.com/erik.donovan.33?ref=bookmarks" target="_blank" title="Facebook"
                         class="btn btn-sm"><img class="siteImg" src="assets/fbImg.png" /></a></button>
                 <!-- github button using same temp -->
-                <button type="button" id='gitButt' class="btn btn-secondary"><a
-                        href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="GitHub"
-                        class="btn  btn-sm"><img class="siteImg" src="assets/gitImg.png" /></a></button>
+                <button type="button" id='gitBtn' class="btn btn-secondary"><a href="https://github.com/ErikDono"
+                        target="_blank" title="GitHub" class="btn  btn-sm"><img class="siteImg"
+                            src="assets/gitImg.png" /></a></button>
             </div>
 
 
@@ -51,47 +56,46 @@
 </nav>
 
 
-<body>
-    <div class="mainWrapper">
+<body id="bgPic">
+    <div id="bgPic">
+        <div class="mainWrapper">
 
-        <div id="mainCard">
-            <div class="row">
-                <div class="rowHeaderStyle">
-                    <h1>Mission Statement</h1>
+            <div id="mainCard">
+                <div class="row">
+                    <div class="rowHeaderStyle">
+                        <h1>Mission Statement</h1>
+                    </div>
                 </div>
+                <div class="divider"></div>
+                <p> My careers in banking, gaming, and education have shown me that the less usable your product is, the
+                    less
+                    likely that<br>
+                    your users will have the experience that you assume them to have! From financing a home to running a
+                    program, every user<br>
+                    expects a high degree of usability. That is why I have made it my goal as a student of the UPENN
+                    coding
+                    academy to learn<br>
+                    how to deploy code that is not only clean and readable, but is impeccably user friendly. I am still
+                    learning, but I plan<br>
+                    on making all of my websites as smooth as possible with each iteration. Please feel free to contact
+                    me
+                    with
+                    any ideas<br>
+                    you have to make this portfolio page any cleaner, or more user friendly!<br>
+                    <br>
+                    Please click around, and visit the different pages of the site! <br><br><br>
+
+                    “Change is the law of life. And those who look only to the past or the present are certain to miss
+                    the
+                    future.”
+                </p>
             </div>
-            <div class="divider"></div>
-            <p> My careers in banking, gaming, and education have shown me that the less usable your product is, the
-                less
-                likely that<br>
-                your users will have the experience that you assume them to have! From financing a home to running a
-                program, every user<br>
-                expects a high degree of usability. That is why I have made it my goal as a student of the UPENN coding
-                academy to learn<br>
-                how to deploy code that is not only clean and readable, but is impeccably user friendly. I am still
-                learning, but I plan<br>
-                on making all of my websites as smooth as possible with each iteration. Please feel free to contact me
-                with
-                any ideas<br>
-                you have to make this portfolio page any cleaner, or more user friendly!<br>
-                <br>
-                Please click around, and visit the different pages of the site! <br><br><br>
-
-                “Change is the law of life. And those who look only to the past or the present are certain to miss the
-                future.”
-            </p>
-
         </div>
-
-
-    </div>
-
-
     </div>
 
 
 
-    </div>
+
 
     <div class="footer">
         <h3> Thank you for visiting! </h3>
@@ -99,6 +103,7 @@
                 target="_top">erik.dono@gmail.com</a> <br> Phone number: (609) 273-2048</p>
 
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -113,6 +118,7 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Custom js -->
     <script src="mainScript.js"></script>
+
 </body>
 
 </html>

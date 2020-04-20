@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     // i loved using javascript in the project this way... so why not practice right?
     // portfolio button 
-    $("#portButt").on("click", function (event) {
+    $("#portBtn").on("click", function (event) {
         event.preventDefault();
         console.log("clicked")
         $("#mainCard").html(`
@@ -49,11 +49,13 @@ $(document).ready(function () {
                         </a></button>
                 </div>
             </div>
-        </div>`);
-        // contact button 
-        $("#contactMe").on("click", function (event) {
-            event.preventDefault();
-            $("#mainCard").html(`
+        </div>`)
+    });
+
+    // contact button 
+    $("#contBtn").on("click", function (event) {
+        event.preventDefault();
+        $("#mainCard").html(`
             <div class="rowHeaderStyle">
             <p>Contact Me</p>
         </div>
@@ -81,10 +83,12 @@ $(document).ready(function () {
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>`)
-            // about me butt
-            $("#missStatButt").on("click", function (event) {
-                event.preventDefault();
-                $("#mainCard").html(`
+    });
+
+    // Mission Statement button
+    $("#missBtn").on("click", function (event) {
+        event.preventDefault();
+        $("#mainCard").html(`
                 <div class="row">
                 <div class="rowHeaderStyle">
                     <h1>Mission Statement</h1>
@@ -109,8 +113,51 @@ $(document).ready(function () {
 
                 “Change is the law of life. And those who look only to the past or the present are certain to miss the
                 future.”
-            </p>`)
-            });
+                </p>`)
+    });
+
+    // Resume button
+    $("#abtBtn").on("click", function (event) {
+        event.preventDefault();
+        $("#mainCard").html(`<div class="col-md-6 col-sm-6">
+                    <!-- <div class="picContainer"> -->
+                    <div class="buffer Thumbnail">
+
+                        <img src="assets/Pic.jpg" />
+
+                    </div>
+                    <div class="caption">
+                        <button class="btn"> <a href="assets/resumeDoc.pdf"> My Resume
+                                (WIP!)
+                            </a></button>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <!-- <div class="overflow"></div> This was an attempt to make the text flow under the picture-->
+                <div class="col-md-6 col-sm-4">
+                    <div class="paragraph">
+
+                        Hello, I a glad you stopped by my page. I'm just staring to learn how to code, so please let me
+                        know
+                        if this is horrible!
+                        The dog in the photo is Georgie, my Papillion Chihuahua. He is about to turn 11, and get two
+                        younger
+                        sisters!
+                        I love hockey, Formula 1, gaming, and figuring out problems. So far, i am enjoying coding, as it
+                        just seems like one big puzzle!
+                        Right now, i happen to be writing just to fill some space. and i dont really want to write more
+                        about myself! I am glad that we are not being
+                        graded on our writing content, and rather our html and css content! I rarely do not want to talk
+                        about myself, this
+                        is truely a strange moment. I am so focused on wanting to write the code, that the only reason i
+                        am
+                        writing is to see if it
+                        spills over beneth the image i've put in, as it did on the image in the example.
+                    </div>
+                </div>`)
+
+
+    });
 
 
 
@@ -123,6 +170,4 @@ $(document).ready(function () {
 
 
 
-        });
-    })
-})
+});
