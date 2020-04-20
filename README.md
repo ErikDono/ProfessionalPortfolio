@@ -50,3 +50,8 @@ This page is a relic from my preivous portfolio, but i want to include it. event
 
 ![ContactMePage](./assets/ContactScreen.png)
 
+- Personal Links
+
+I could not sleep without doing this on a seperate page. it needed to be done... 
+
+![PersonalLinksPage](./assets/PersonalLink.png)
