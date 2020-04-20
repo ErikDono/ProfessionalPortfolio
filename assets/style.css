@@ -144,22 +144,16 @@ margin-top:5px;
  border-top:10px solid #B0B0B0;
  border-radius: 10px;
 }
-/* all of the above was taken from my previous portfolio */
+/* !!!!!!all of the above was taken from my previous portfolio !!!!!!*/
 
-#linkImg{
- width: 20px;
- height: 20px;
+.siteImg{
+ width: 30px;
+ height: 30px;
  border-radius: 10px;
  margin: 20px ;
-
 }
 
-.btn-linkedin {
-    /* width: 60px;
-    height: 40px;
-    trying to resize the button itself, but this pushes the image and text out */
-	background: #0E76A8;
-	border-radius: 10%;
-    color: white;
-    /* took this from another site, then tweaked it... this works whenever i hover, so i kept it. */
+#missStat {
+    text-align: center;
+    padding: 5px;
 }

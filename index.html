@@ -19,31 +19,30 @@
 
     <!-- <h1 class="navbar-brand">Erik Donovan</h1> 
     tried to see if h1 tag would allow font color change-->
-    <a class="navbar-brand" href="index.html">Erik Donovan</a>
+    <a class="navbar-brand" href="index.html" id="missStat"> My<br>Mission<br>Statement </a>
 
     <ul class="navbar-nav ml-auto">
-        <li class="link"><a class="nav-item nav-link active" href="index.html">About Me <span
-                    class="sr-only">(current)</span></a>
-        </li>
-        <div class="navDivider"></div>
-        <li id="link"><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
-        <div class="ivider"></div>
-        <li id="link"><a class="nav-item nav-link" href="contact.html">Contact Me</a></li>
-        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-toolbar justify-content-between " role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group" role="group" aria-label="First group">
+                <!-- adding button for portfolio  -->
+                <button type="button" class="btn btn-secondary"><a class="nav-item nav-link"
+                        href="portfolio.html">Portfolio</a></button>
+                <!-- adding button for contact me -->
+                <button type="button" class="btn btn-secondary"><a class="nav-item nav-link" href="contact.html">Contact
+                        Me</a></button>
+                <!-- added linked in button. my button was sloppy so I used an a href from another template  -->
                 <button type="button" class="btn btn-secondary"><a
                         href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn"
-                        class="btn btn-linkedin btn-sm"><i class="fa fa-linkedin fa-fw"></i><img id=linkImg
-                            src="assets/linkedin.png" /></a></button>
-                <button type="button" class="btn btn-secondary">2</button>
-                <button type="button" class="btn btn-secondary">3</button>
-                <button type="button" class="btn btn-secondary">4</button>
+                        class="btn btn-sm"><img class='siteImg' src="assets/linkedin.png" /></a></button></button>
+                <!-- facebook button using same temp -->
+                <button type="button" class="btn btn-secondary"><a
+                        href="https://www.facebook.com/erik.donovan.33?ref=bookmarks" target="_blank" title="LinkedIn"
+                        class="btn btn-sm"><img class="siteImg" src="assets/fbImg.png" /></a></button></button>
+                <!-- github button using same temp -->
+                <button type="button" class="btn btn-secondary"><a
+                        href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn"
+                        class="btn  btn-sm"><img class="siteImg" src="assets/gitImg.png" /></a></button></button>
             </div>
-            <!-- added linked in button. my button was sloppy so I used an a href from another template  -->
-            <a href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn"
-                class="btn btn-linkedin btn-sm"><i class="fa fa-linkedin fa-fw"></i><img id=linkImg
-                    src="assets/linkedin.png" />LinkedIn</a>
-            <!-- facebook button -->
 
 
         </div>
