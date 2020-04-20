@@ -34,16 +34,19 @@ The text for the github stays ontop of the image, but the images do not resize. 
 
 -       About Me Page
 
-
-
-
-
-
-
-
-
+My ‘About Me’ page is a snippet about my life (which needs to be updated), as well as a copy of my resume. The link sits ontop of my picture, as to stay uniform. 
 
 ![AboutMePage](./assets/aboutScreen.png)
+
+- - Limitations: Resizing and orginization 
+
+First, I do not think I should have kept it uniform with the other photos. Changing it from an About Me to a Professional Resource page, or something simmilar, may be a better idea. 
+
+![AboutMeIphone](./assets/aboutMeIphone.png)
+
+- Contact Me 
+
+This page is a relic from my preivous portfolio, but i want to include it. eventually, i would like to have a space where people can write a message to me. i know that it would take me taking the values of the inputs, and having the button create a 'mailto' with the strings (i may have to make them into objects like we just learned?) . I would like to make the button create a modal, however. 
 
 ![ContactMePage](./assets/ContactScreen.png)
 
