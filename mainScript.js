@@ -122,24 +122,22 @@ $(document).ready(function () {
                 </p>`)
     });
 
-    // Resume button
+    // About Me button
     $("#abtBtn").on("click", function (event) {
         event.preventDefault();
-        $("#mainCard").html(`<div class="col-md-6 col-sm-6">
+        $("#mainCard").html(`
+        <div class="row">
+        <div class="rowHeaderStyle">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+<div class="divider"></div>
+                <div class="col-md-6 col-sm-6">
                     <!-- <div class="picContainer"> -->
                     <div class="buffer Thumbnail">
-
                         <img src="assets/Pic.jpg" />
-
                     </div>
-                    <div class="caption">
-                        <button class="btn"> <a href="assets/resumeDoc.pdf" target="_blank"> My Resume
-                                (WIP!)
-                            </a></button>
-                    </div>
-                    <!-- </div> -->
                 </div>
-                <!-- <div class="overflow"></div> This was an attempt to make the text flow under the picture-->
                 <div class="col-md-6 col-sm-4">
                     <div class="paragraph">
 
@@ -161,9 +159,26 @@ $(document).ready(function () {
                         spills over beneth the image i've put in, as it did on the image in the example.
                     </div>
                 </div>`)
-
-
     });
+    // Personal Links
+    $("#perBtn").on("click", function (event) {
+        event.preventDefault();
+        $("#mainCard").html(`<div class="row">
+        <div class="rowHeaderStyle">
+                    <h1>Personal Links</h1>
+                </div>
+            </div>
+            <div class="divider"></div>
+                <div class="col-md-6 col-sm-6">
+                <div>
+                <br>
+                <a href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn" class="btn btn-linkedin btn-lg"><img class= 'siteImg' src='assets/linkedin.png' /><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a><br><br>
+                <a href="https://www.facebook.com/erik.donovan.33?ref=bookmarks" target="_blank" title="LinkedIn" class="btn btn-facebook btn-lg"><img class= 'siteImg' src='assets/fbImg.png' /><i class="fa fa-linkedin fa-fw"></i> Facebook</a><br><br>
+                <a href="assets/resumeDoc.pdf" target="_blank" title="LinkedIn" class="btn btn-resume btn-lg"><img class= 'siteImg' src='assets/docImg.png' /><i class="fa fa-linkedin fa-fw"></i> Resume</a><br><br>
+                
+                </div>
+                </div>`)
+    })
 
 
 
