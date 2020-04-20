@@ -81,8 +81,14 @@ $(document).ready(function () {
                 <label for="exampleFormControlTextarea1">Please leave me a breif message bout your inquiry:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id = "emailSub" class="btn btn-primary">Submit</button>
         </form>`)
+
+        // trying to get emailSub button to take items from the form, and append it to an email! This will have to be a future deploy
+        // $("#emailSub").on("click", function (event){
+
+
+        // })
     });
 
     // Mission Statement button
