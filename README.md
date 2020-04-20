@@ -1,4 +1,7 @@
 # ProfessionalPortfolio
+
+link : https://erikdono.github.io/ProfessionalPortfolio/
+
 This will be an updated portfolio page (WIP). I will be continuously changing this page, so please keep checking back for updates :)
 
 my portfolio is now dynamic, but I can see how to make it even more usable. The Javascript allows the html to all stay on one page, and every link opens in a separate tab. This allows you to easily come back, if you need to access more info. 
