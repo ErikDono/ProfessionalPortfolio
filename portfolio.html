@@ -10,30 +10,51 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Portfolio</title>
+    <title>About Me</title>
 
 </head>
 
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary rounded">
 
-    <a class="navbar-brand" href="index.html">Erik Donovan</a>
+    <!-- <h1 class="navbar-brand">Erik Donovan</h1> 
+    tried to see if h1 tag would allow font color change-->
+    <button type="button" id="missStatButt" class="btn"> <a class="navbar-brand" href="index.html" id="missStat">
+            My<br>Mission<br>Statement</a></button>
 
     <ul class="navbar-nav ml-auto">
-        <li><a class="nav-item nav-link active" href="portfolio.html">Portfolio <span
-                    class="sr-only">(current)</span></a></li>
-        <div class="navDivider"></div>
-        <li><a class="nav-item nav-link" href="contact.html">Contact Me</a></li>
-        <div class="ivider"></div>
-        <li><a class="nav-item nav-link" href="index.html">About Me</a></li>
-        </div>
+        <div class="btn-toolbar justify-content-between " role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group" role="group" aria-label="First group">
+                <!-- adding button for portfolio  -->
+                <button type="button" class="btn btn-secondary"><a class="nav-item nav-link"
+                        href="portfolio.html">Portfolio</a></button>
+                <!-- adding button for contact me -->
+                <button type="button" class="btn btn-secondary"><a class="nav-item nav-link" href="contact.html">Contact
+                        Me</a></button>
+                <!-- added linked in button. my button was sloppy so I used an a href from another template  -->
+                <button type="button" class="btn btn-secondary"><a
+                        href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn"
+                        class="btn btn-sm"><img class='siteImg' src="assets/linkedin.png" /></a></button></button>
+                <!-- facebook button using same temp -->
+                <button type="button" class="btn btn-secondary"><a
+                        href="https://www.facebook.com/erik.donovan.33?ref=bookmarks" target="_blank" title="LinkedIn"
+                        class="btn btn-sm"><img class="siteImg" src="assets/fbImg.png" /></a></button></button>
+                <!-- github button using same temp -->
+                <button type="button" class="btn btn-secondary"><a
+                        href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn"
+                        class="btn  btn-sm"><img class="siteImg" src="assets/gitImg.png" /></a></button></button>
+            </div>
 
+
+        </div>
     </ul>
 </nav>
 
 
 <body>
-    <div class="contactMeWrapper">
+    <div class="mainWrapper">
+
+        <div id="mainCard"></div>
 
         <div class="row">
             <div class="rowHeaderStyle">
@@ -43,83 +64,51 @@
         <div class="divider"></div>
         <div class="row">
             <div class="col-md-6 col-sm-5">
-                <div class="buffer">
-                    <div class="Thumbnail">
-                        <a href="assets/rps.html">
-                            <img src="assets/rps.jpg" alt="rps" />
-                        </a>
-                    </div>
+                <div class="buffer Thumbnail">
+                    <a href="https://erikdono.github.io/CalenderApp/">
+                        <img src="assets/workDayScheduler.png" alt="rps" />
+                    </a>
                 </div>
                 <div class="caption">
-                    <h2> Rock Paper Scisors</h2>
+                    <button class="btn"> <a href="https://github.com/ErikDono/CalenderApp"> Work Day Scheduler (WIP!)
+                        </a></button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-5">
-                <div class="buffer">
-                    <div class="Thumbnail">
-                        <a href="assets/car.html">
-                            <img src="assets/car.jpg" alt="Junk Car" />
-                        </a>
-                    </div>
+                <div class="buffer Thumbnail">
+                    <a href="https://github.com/ErikDono/PasswordGeneratorWIP">
+                        <img src="assets/passPic.png" alt="rps" />
+                    </a>
                 </div>
                 <div class="caption">
-                    <h2> Junk Car</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 col-sm-5">
-                <div class="buffer">
-                    <div class="Thumbnail">
-                        <a href="assets/carTravel.html">
-                            <img src="assets/carTravel.jpg" alt="Car Game" />
-                        </a>
-                    </div>
-                </div>
-                <div class="caption">
-                    <h2> Car Java Game</h2>
+                    <button class="btn"> <a href="https://erikdono.github.io/PasswordGeneratorWIP/"> Password Generator
+                            (WIP!)
+                        </a></button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-5">
-                <div class="buffer">
-                    <div class="Thumbnail">
-                        <a href="assets/fanpage.html">
-                            <img src="assets/fanpage.jpg" alt="Fan Page" />
-                        </a>
-                    </div>
+                <div class="buffer Thumbnail">
+                    <button><a href="https://github.com/jbenj-upenn/CovidActivities">
+                            <img src="assets/prjPic.png" alt="rps" />
+                        </a></button>
                 </div>
                 <div class="caption">
-                    <h2> Fan Page</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-5">
-                <div class="buffer">
-                    <div class="Thumbnail">
-                        <a href="assets/square.html">
-                            <img src="assets/square.png" alt="Square Squeeze" />
-                        </a>
-                    </div>
-                </div>
-                <div class="caption">
-                    <h2> Square Squeeze</h2>
+                    <button class="btn"> <a href="https://jbenj-upenn.github.io/CovidActivities/"> Covid Activities
+                            (WIP!)
+                        </a></button>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
-
-    </div>
-
-
-    </div>
 
 
 
-    </div>
+
+
+
+
+
+
 
     <div class="footer">
         <h3> Thank you for visiting!</h3>

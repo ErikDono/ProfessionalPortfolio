@@ -12,7 +12,8 @@ img {
 .rowHeaderStyle {
     font-size: 24px;
     color: #B0B0B0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
 }
 /* .nav-item {
     float:left;
@@ -91,11 +92,11 @@ position: fixed;
 
 .thumbnail {
     position: relative;
-    /* top: auto;
-    right: auto; */
-    /* margin-right: 5%;<<< *im trying to move the photo over a bit, as when its resized the caption stretches over/
-    /* margin-left: 10%; * i am trying to move the .caption absolute position over a bit*/
-}
+    max-width: 80px;
+    /* NEW! not working? */
+    max-height: 80px;
+    /* New! not working? */}
+
 
 .caption {
     position: absolute;
@@ -114,7 +115,7 @@ position: fixed;
 }
 
 
-.contactMeWrapper {
+.mainWrapper {
     /* overflow: auto ; */
     column-width: auto;
     height: auto;
@@ -156,4 +157,12 @@ margin-top:5px;
 #missStat {
     text-align: center;
     padding: 5px;
+}
+
+.prjImg{
+width: 80px;
+ height: 80px;
+ border-radius: 10px;
+ margin: 20px
+
 }
