@@ -21,7 +21,7 @@ $(document).ready(function () {
                     </a>
                 </div>
                 <div class="caption">
-                    <button class="btn"> <a href="https://github.com/ErikDono/CalenderApp" target="_blank"> Work Day Scheduler GitHub (W.I.P.)
+                    <button class="btn"> <a href="https://github.com/ErikDono/CalenderApp" target="_blank"> Work Day Scheduler (W.I.P.)
                         </a></button>
                 </div>
             </div>
