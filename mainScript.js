@@ -16,36 +16,36 @@ $(document).ready(function () {
         <div class="row">
             <div class="col-md-6 col-sm-5">
                 <div class="buffer Thumbnail">
-                    <a href="https://erikdono.github.io/CalenderApp/">
+                    <a href="https://erikdono.github.io/CalenderApp/" target="_blank">
                         <img src="assets/workDayScheduler.png" alt="rps" />
                     </a>
                 </div>
                 <div class="caption">
-                    <button class="btn"> <a href="https://github.com/ErikDono/CalenderApp"> Work Day Scheduler (W.I.P.)
+                    <button class="btn"> <a href="https://github.com/ErikDono/CalenderApp" target="_blank"> Work Day Scheduler GitHub (W.I.P.)
                         </a></button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-5">
                 <div class="buffer Thumbnail">
-                    <a href="https://github.com/ErikDono/PasswordGeneratorWIP">
+                    <a href="https://erikdono.github.io/PasswordGeneratorWIP/" target="_blank">
                         <img src="assets/passPic.png" alt="rps" />
                     </a>
                 </div>
                 <div class="caption">
-                    <button class="btn"> <a href="https://erikdono.github.io/PasswordGeneratorWIP/"> Password Generator
-                            (W.I.P.)
+                    <button class="btn"> <a href="https://github.com/ErikDono/PasswordGeneratorWIP" target="_blank"> Password Generator
+                           GitHub (W.I.P.)
                         </a></button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-5">
                 <div class="buffer Thumbnail">
-                    <a href="https://github.com/jbenj-upenn/CovidActivities">
+                    <a href="https://jbenj-upenn.github.io/CovidActivities/" target="_blank">
                         <img src="assets/prjPic.png" alt="rps" />
                     </a>
                 </div>
                 <div class="caption">
-                    <button class="btn"> <a href="https://jbenj-upenn.github.io/CovidActivities/"> Covid Activities
-                            (W.I.P.)
+                    <button class="btn"> <a href="https://github.com/jbenj-upenn/CovidActivities"target="_blank"> Covid Activities
+                           GitHub (W.I.P.)
                         </a></button>
                 </div>
             </div>
@@ -133,7 +133,7 @@ $(document).ready(function () {
 
                     </div>
                     <div class="caption">
-                        <button class="btn"> <a href="assets/resumeDoc.pdf"> My Resume
+                        <button class="btn"> <a href="assets/resumeDoc.pdf" target="_blank"> My Resume
                                 (WIP!)
                             </a></button>
                     </div>
