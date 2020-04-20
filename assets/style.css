@@ -208,4 +208,12 @@ width: 80px;
 .btn-linkedin:active, .btn-linkedin:hover {
 	  background: #084461;
 	  color: #fff;
-	}
+    }
+    .btn-gitHub{
+    background: #24292e;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461
+    }

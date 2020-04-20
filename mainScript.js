@@ -173,9 +173,9 @@ $(document).ready(function () {
                 <div>
                 <br>
                 <a href="https://www.linkedin.com/in/erik-donovan-174a6877/" target="_blank" title="LinkedIn" class="btn btn-linkedin btn-lg"><img class= 'siteImg' src='assets/linkedin.png' /><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a><br><br>
-                <a href="https://www.facebook.com/erik.donovan.33?ref=bookmarks" target="_blank" title="LinkedIn" class="btn btn-facebook btn-lg"><img class= 'siteImg' src='assets/fbImg.png' /><i class="fa fa-linkedin fa-fw"></i> Facebook</a><br><br>
-                <a href="assets/resumeDoc.pdf" target="_blank" title="LinkedIn" class="btn btn-resume btn-lg"><img class= 'siteImg' src='assets/docImg.png' /><i class="fa fa-linkedin fa-fw"></i> Resume</a><br><br>
-                
+                <a href="https://www.facebook.com/erik.donovan.33?ref=bookmarks" target="_blank" title="Facebook" class="btn btn-facebook btn-lg"><img class= 'siteImg' src='assets/fbImg.png' /><i class="fa fa-linkedin fa-fw"></i> Facebook</a><br><br>
+                <a href="assets/resumeDoc.pdf" target="_blank" title="Resume" class="btn btn-resume btn-lg"><img class= 'siteImg' src='assets/docImg.png' /><i class="fa fa-linkedin fa-fw"></i> Resume</a><br><br>
+                <a href="https://github.com/ErikDono/" target="_blank" title="GitHub" class="btn btn-gitHub btn-lg"><img class= 'siteImg' src='assets/gitImg.png' /><i class="fa fa-linkedin fa-fw"></i> GitHub</a><br><br>
                 </div>
                 </div>`)
     })
