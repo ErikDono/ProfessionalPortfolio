@@ -17,34 +17,46 @@ $(document).ready(function () {
             <div class="col-md-6 col-sm-5">
                 <div class="buffer Thumbnail">
                     <a href="https://erikdono.github.io/CalenderApp/" target="_blank">
-                        <img src="assets/workDayScheduler.png" alt="rps" />
+                        <img style='height: 100%; width: 100%; object-fit: contain' src="assets/workDayScheduler.png" alt="rps" />
                     </a>
                 </div>
-                <div class="caption">
+                <div style: "resize: both;overflow: auto;" class="caption">
                     <button class="btn"> <a href="https://github.com/ErikDono/CalenderApp" target="_blank"> Work Day Scheduler (W.I.P.)
                         </a></button>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-5">
+            <div class="col-md-6 col-sm-4">
                 <div class="buffer Thumbnail">
                     <a href="https://erikdono.github.io/PasswordGeneratorWIP/" target="_blank">
-                        <img src="assets/passPic.png" alt="rps" />
+                        <img style='height: 100%; width: 100%; object-fit: contain' src="assets/passPic.png" alt="rps" />
                     </a>
                 </div>
-                <div class="caption">
+                <div style: "resize: both;overflow: auto;" class="caption">
                     <button class="btn"> <a href="https://github.com/ErikDono/PasswordGeneratorWIP" target="_blank"> Password Generator
                            GitHub (W.I.P.)
                         </a></button>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-5">
+            <div class="col-md-6 col-sm-4">
                 <div class="buffer Thumbnail">
                     <a href="https://jbenj-upenn.github.io/CovidActivities/" target="_blank">
-                        <img src="assets/prjPic.png" alt="rps" />
+                        <img style='height: 100%; width: 100%; object-fit: contain' src="assets/prjPic.png" alt="rps" />
                     </a>
                 </div>
-                <div class="caption">
+                <div style: "resize: both;overflow: auto;" class="caption">
                     <button class="btn"> <a href="https://github.com/jbenj-upenn/CovidActivities"target="_blank"> Covid Activities
+                           GitHub (W.I.P.)
+                        </a></button>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-4">
+                <div class="buffer Thumbnail">
+                    <a href="https://personal-trainer-portal.herokuapp.com/login" target="_blank">
+                        <img style='height: 100%; width: 100%; object-fit: contain' src="assets/prjtwoscreen.png" alt="rps" />
+                    </a>
+                </div>
+                <div style: "resize: both;overflow: auto;" class="caption">
+                    <button class="btn"> <a href="https://github.com/BrianLevin/Personal-Trainer-Portal"target="_blank"> Covid Activities
                            GitHub (W.I.P.)
                         </a></button>
                 </div>
